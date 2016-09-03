@@ -1,0 +1,65 @@
+
+#include<iostream>
+using namespace std;
+#define MAXOFCASES 500
+#define MAXOFINSTANCES 100
+//
+//question structure:
+class QuestionType{
+public:
+	QuestionType(){}
+	float x;
+	float y;
+private:
+};
+istream &operator>>(istream &in,QuestionType &t){
+	in>>t.x;
+	in>>t.y;
+	return in;
+}
+//
+//answer structure:
+class AnswerType{
+public:
+	AnswerType(){}
+	int value;
+private:
+};
+ostream &operator<<(ostream &out,AnswerType &t){
+	out<<t.value;
+	return out;
+}
+//
+//the main function:
+AnswerType getAnswer(QuestionType * lines,int size){
+	AnswerType answer;
+	
+	return answer;
+}
+//
+//
+int main()
+{
+	AnswerType answer[MAXOFCASES];
+	//
+	QuestionType lines[MAXOFINSTANCES];
+	int caseCount=0;
+	int numLines=0;
+	while(1){
+		cin>>numLines;
+		if(numLines==0) break;
+		//start.
+		for(int j=0;j<numLines;j++){
+			cin>>lines[j];
+		}
+		answer[caseCount]=getAnswer(lines,numLines);
+		//end.
+		caseCount++;
+	}
+	int i;
+	for( i=0;i<caseCount;i++){
+		cout<<"answer["<<i<<"]="<<answer[i]<<"."<<endl;
+		
+	}
+	return 0;
+}

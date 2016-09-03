@@ -1,0 +1,6 @@
+user:eric
+pass:123
+user:a
+pass:a
+user:1
+pass:1

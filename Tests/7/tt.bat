@@ -1,0 +1,1 @@
+dir>D:\temp.txt

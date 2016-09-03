@@ -1,0 +1,8 @@
+{
+ x = 10;
+ read(y);
+ x=x+y;
+ write(x * y);
+read(cd);;
+abc=cd+8;write(abc*cd);
+}

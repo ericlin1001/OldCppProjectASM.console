@@ -1,0 +1,2 @@
+just one client can login the server.
+can logoff ,can sendStr

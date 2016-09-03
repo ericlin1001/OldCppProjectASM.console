@@ -1,0 +1,7 @@
+can:
+login
+logoff
+chat
+
+it's can be used by a little change!
+but i will be going to add more features to this funny chat program.

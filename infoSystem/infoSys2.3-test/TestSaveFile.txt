@@ -1,0 +1,81 @@
+Error records:
+为什么？
+1.当继承虚方法时，CTable的指针赋值出错.
+
+Test:
+Case1:
+	CDataBase db;
+	CDataBaseView dbView;
+	dbView.setDB(&db);
+	//
+	dbView.printAll();
+	//
+	dbView.addType("Name");
+	cout<<"no error"<<endl;
+	dbView.addType("QQ");dbView.addType("phhone");
+	dbView.addType("eamil");
+	dbView.inputData();	dbView.printAll();dbView.inputData();	dbView.printAll();dbView.inputData();	dbView.printAll();
+	//
+/*input:
+addPerson
+eric
+463222898
+13580532764
+nameljh@sina.com
+y
+addPerson
+ann
+1065888963
+623548
+any19930208@163.com
+y
+addPerson
+Chilly
+45211125
+13589652478/612368
+45211125@qq.com
+y
+
+
+*/
+Case2:
+
+
+
+/*	ofstream outfile;
+	outfile.open(filePath,ios_base::out);
+	//outfile.seekp(ios_base::beg);
+	TraceVar(outfile.tellp());
+	int outa=5;double outb=7;char *outempt=new  char[3];*outempt=0;char outbuffer[10]="abcdef";
+	char *outstr=new char[15];strcpy(outstr,"thisisstr");
+	TraceVar(outfile.tellp());
+	outfile.flush();
+	outfile.write(serial(outa));
+	TraceVar(outfile.tellp());
+	outfile.write(serial(outb));
+	outfile.write(outempt,3);
+	outfile.write(serial(outbuffer));
+	outfile.write(outstr,15);
+	TraceVar(outfile.tellp());
+//
+	
+//
+	outfile.close();
+	
+	TraceVar(sizeof(outbuffer));
+
+	ifstream infile;
+	infile.open(filePath,ios_base::in);
+	infile.seekg(ios_base::beg);
+	int ina;double inb;char *inempt=new  char[3];char inbuffer[10];
+	char *instr=new char[15];
+	TraceVar(sizeof(instr));
+	infile.read(serial(ina));
+	infile.read(serial(inb));
+	infile.read(inempt,3);
+	infile.read(serial(inbuffer));
+	infile.read(instr,15);
+
+	TraceVar(ina);TraceVar(inb);TraceVar(inempt);TraceVar(inbuffer);TraceVar(instr);
+	infile.close();
+*/

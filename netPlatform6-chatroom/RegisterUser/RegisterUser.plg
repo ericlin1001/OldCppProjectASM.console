@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RegisterUser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP2325.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/RegisterUser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C ++\C++Projects\console\netPlatform6-chatroom\RegisterUser\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP2325.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+d:\program files\microsoft visual studio\vc98\include\winsock2.h(85) : error C2628: 'u_int' followed by 'unsigned' is illegal (did you forget a ';'?)
+d:\program files\microsoft visual studio\vc98\include\winsock2.h(85) : error C2628: 'u_int' followed by 'int' is illegal (did you forget a ';'?)
+d:\program files\microsoft visual studio\vc98\include\winsock2.h(85) : warning C4091: 'typedef ' : ignored on left of 'unsigned int' when no variable is declared
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

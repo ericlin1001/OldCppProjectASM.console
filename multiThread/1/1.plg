@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPF705.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\C ++\C++Projects\console\multiThread\1\cpp1.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPF705.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/1.pdb" /debug /machine:I386 /out:"Debug/1.exe" /pdbtype:sept  ".\Debug\cpp1.obj" "
+<h3>Output Window</h3>
+Compiling...
+cpp1.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/1.bsc"  ".\Debug\cpp1.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

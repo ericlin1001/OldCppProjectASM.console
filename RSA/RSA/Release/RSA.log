@@ -1,0 +1,33 @@
+﻿Build started 2012/6/25 0:33:02.
+     1>Project "E:\C ++\C++Projects\console\RSA\RSA\RSA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\RSA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\RSA.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RSA.cpp
+         RSA.cpp
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(89): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(97): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(103): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(114): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\LargeInt.h(141): warning C4018: '<' : signed/unsigned mismatch
+     1>RSA.cpp(51): warning C4244: '=' : conversion from 'LargeInt::Unit' to 'char', possible loss of data
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C ++\C++Projects\console\RSA\Release\RSA.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RSA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C ++\C++Projects\console\RSA\Release\RSA.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C ++\C++Projects\console\RSA\Release\RSA.lib" /MACHINE:X86 Release\BasicRSA.obj
+         Release\LargeInt.obj
+         Release\RSA.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         RSA.vcxproj -> E:\C ++\C++Projects\console\RSA\Release\RSA.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\C ++\C++Projects\console\RSA\Release\RSA.exe;#1" /manifest Release\RSA.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\RSA.unsuccessfulbuild".
+         Touching "Release\RSA.lastbuildstate".
+     1>Done Building Project "E:\C ++\C++Projects\console\RSA\RSA\RSA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.77

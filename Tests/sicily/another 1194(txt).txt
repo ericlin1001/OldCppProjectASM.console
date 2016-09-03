@@ -1,0 +1,209 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+//the main function:
+typedef char *pStr;
+void lowerCase(char *str){
+    while(*str!='\0'){
+        if(*str<'a'){
+            *str+=0x20;
+        }
+        str++;
+    }
+}
+void lowerCase(string &str){
+   for(int j = 0; j < str.length(); j++)
+                str[j] = tolower(str[j]);
+}
+
+
+void strSort(pStr *strs,int begin,int end){
+	pStr temp;
+	int i,j;
+	for(i=begin+1;i<=end;i++){
+		temp=strs[i];
+		j=i-1;
+		while(j>=0 && strcmp(temp,strs[j])<0){
+			strs[j+1]=strs[j];
+			j--;
+		}
+		strs[j+1]=temp;
+	}
+}
+int binarySearch(pStr *strs,int begin,int end,char *findStr){
+/*	if(strcmp(strs[begin],findStr)>0 || strcmp(findStr,strs[end])>0){
+return -1;
+}
+	if(strcmp(strs[begin],findStr)==0) return begin;*/
+	int mid;
+	while(end>=begin){
+		mid=(end+begin)/2;
+		int cmp=strcmp(findStr,strs[mid]);
+		if(cmp==0){
+			return mid;
+		}else if(cmp>0){
+			begin=mid+1;
+		}else{
+			end=mid-1;
+		}
+	}
+	return -1;
+}/**/
+void print(char **str,int size){
+	for(int i=0;i<size;i++) cout<<str[i]<<endl;
+}
+//bool debug=true;
+/*int getAnswer(int n,int m,pStr *names){
+int i;
+int answer=0;
+int t=m+n;
+strSort(names,0,t-1);
+if(debug){
+cout<<"\nfriends:"<<endl;
+print(names,n);
+	}*/
+//strSort(names,n,t-1);
+/*if(debug){
+cout<<"sendfrien:"<<endl;
+print(names+n,m);
+cout<<"end:\n"<<endl;
+	}*/
+
+	/*int pStart=0;
+	for(i=n;i<t;i++){
+	int findIndex=binarySearch(names,pStart,n-1,names[i]);
+	if(findIndex!=-1){
+	//cout<<names[findIndex]<<endl;
+	pStart=findIndex+1;
+	answer++;
+	}
+	}*/
+	/*int j;
+	for(i=0;i<t;){
+	char *temp=names[i];
+	j=i+1;
+	while(j<t && strcmp(temp,names[j])==0)j++;
+	if(j>i+1) answer++;
+	i=j;
+	}
+    return n-answer;
+}*/
+//
+//
+char *pBuffer[20000];
+char buffer[20000*11];
+bool bSent[20000];
+int ttttmain()
+{
+	// char names[20000][11];
+	char **names;
+	names=pBuffer;
+	char *p=buffer;
+	for(int i=0;i<20000;i++){
+		names[i]=p;
+		p+=11;
+	}
+    int n,m;
+	char temp[11];
+	int answer;
+    while(1){
+        cin>>n;
+        if(n==0) break;
+        cin>>m;
+        //start.
+		int j;
+        for(j=0;j<n;j++){
+            cin>>names[j];
+			lowerCase(names[j]);
+			bSent[j]=false;
+        }
+		strSort(names,0,n-1);
+		answer=n;
+		for(j=0;j<m;j++){
+			cin>>temp;
+			lowerCase(temp);
+			int findIndex=-1;
+			//binarySort:
+			int mid;
+			int begin=0;
+			int end=n-1;
+			while(end>=begin){
+				mid=(end+begin)/2;
+				int cmp=strcmp(temp,names[mid]);
+				if(cmp==0){
+					findIndex= mid;
+					break;
+				}else if(cmp>0){
+					begin=mid+1;
+				}else{
+					end=mid-1;
+				}
+			}
+			//end binarySort:
+			//int findIndex=binarySearch(names,0,n-1,temp);
+			if(!bSent[findIndex] && findIndex!=-1){
+				bSent[findIndex]=true;
+				answer--;
+			}
+		}
+        cout<<answer<<endl;
+        //end.
+    }
+    return 0;
+}
+/*
+
+  5 3
+  Inkfish
+  Henry
+  Carp
+  Max
+  Jericho
+  Carp
+  Max
+  Carp
+  0
+  
+*/
+#include<iostream>
+#include<cstring>
+#include<set>
+using namespace std;
+#define change(t) (&((t)[0]))
+int ttttttmain(){
+	set<string> friends;
+//	set<char [11]> sents;
+//	String temp();
+	//temp =new String(
+	//unsigned int answer=0;
+	while(1){
+		int n,m;
+		cin>>n;
+		if(n==0)break;
+		cin>>m;
+		int i,j;
+		for(i=0;i<n;i++){
+		//	cin>>temp;
+		//	lowerCase(temp);
+		//	friends.insert(temp);
+		}
+		for(i=0;i<m;i++){
+	//		cin>>temp;
+		//	lowerCase((char *)temp);
+			//friends.erase(temp);
+		}
+	//	cout<<friends.size()<<endl;
+		//friends.clear();
+		/*cout<<sents.size()<<endl;
+		//
+		set<char *>::iterator si;
+		answer=sents.size();
+		for(si=change(sents.begin());si!=change(sents.end());++si){
+			friends.insert(&((*si)[0]));
+		}
+		answer=friends.size()-answer;
+		cout<<answer<<endl;*/
+	}
+	return 0;
+}
+

@@ -1,0 +1,11 @@
+main.exe是示例程序，双击可运行。
+
+打开工程方法是：
+把main.dsp拖进VC6.0中即可。其中：include和src文件夹是程序所需的。
+main.cpp是为示例代码，可修改其中代码成为自己的程序。
+
+如果是新建一个工程的话：工程需要包含include和src中的文件。
+主文件中需以有下面语句以正常使用：
+#define __saveExternal__
+#include "CDataBaseView.h"
+#include "CDataBase.h"

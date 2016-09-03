@@ -1,0 +1,68 @@
+#include<iostream>
+
+#include<cmath>
+
+#include<iomanip>
+
+using namespace std;
+
+bool isPrime(int n){
+	
+if(n==2)return true;
+	
+for(int i=2;i*i<=n;i++){
+	
+	if(n%i==0) return false;
+
+	}
+	
+return true;
+
+}
+
+bool isEmirp(int n)
+{
+	
+int rn=0;
+	
+if(!isPrime(n))return false;
+	
+while(n){
+	
+	rn*=10;
+	
+	rn+=n%10;
+
+		n/=10;
+
+	}
+	
+return isPrime(rn);
+
+}
+
+using namespace std;
+
+int main(){
+	
+int num;
+	
+cin>>num;
+	
+int count=0;
+	
+for(int i=2;count<num;i++){
+	
+	if(isEmirp(i)){
+	
+		cout<<setw(8)<<i;
+	
+		count++;
+			
+if(count%10==0) cout<<endl;
+	
+	}
+
+	}
+
+}

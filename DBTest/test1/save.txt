@@ -1,0 +1,62 @@
+
+2012/02/21 周二  0:29:46.93 
+----------------------------------------
+CREATE TABLE test (
+	fist_name CHAR (15),
+	second_name CHAR(20)
+)
+INSERT INTO test VALUES ('Jane', 'Smith')
+INSERT INTO test VALUES ("Eric', 'Lin')
+SELECT * FROM test
+DROP TABLE test
+SELECT * FROM test
+CREATE TABLE test2 (
+name VARCHAR2(20),
+gender CHAR(1)
+)
+INSERT INTO test2 VALUES ('George', 'M')
+INSERT INTO test2 VALUES ('Jane', 'F')
+SELECT * FROM test2
+DROP TABLE test
+CREATE TABLE test3 (
+product_name VARCHAR2(25),
+product_price NUMBER(4,2)
+)
+INSERT INTO test3 VALUES ('p name 1',15),
+INSERT INTO test3 VALUES ('p name 2',1.25)
+SELECT * FROM test3
+DROP TABLE test3
+CREATE TABLE test4 (
+product_name VARCHAR2(20),
+product_price NUMBER(4,5),
+purchase_data DATE
+)
+
+2012/02/21 周二  0:41:21.59 
+----------------------------------------
+CREATE TABLE test4 (
+product_name VARCHAR2(20),
+product_price NUMBER(4,5),
+purchase_data DATE
+)
+INSERT INTO test4 VALUES ('name1',541.256,'5-NOV-03')
+INSERT INTO test4 VALUES ('namE 2',45.203,'10-dec-05')
+SELECT * FROM test4
+DESC test4
+//this no need 
+
+r
+INSERT INTO test4 (NULL,2.5,'29-JUN-04')
+SELECT * FROM test5
+CREATE TABLE test5 (
+product_name VARCHAR2(20),
+product_price NUMBER(4,9),
+purchase_date DATE NOT NULL
+)
+INSERT INTO test5 VALUES (NULL,452.362,NULL)
+INSERT INTO test5 VALUES (NULL,452.362,'7-NOV-09')
+SELECT * FROM test5
+
+INSERT INTO test5 (product_price,product_name)
+VALUES (542.632,'name4')
+

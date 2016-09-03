@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FDraw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPAAAF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/FDraw.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C ++\C++Projects\FDraw\FDrawDoc.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPAAAF.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPAAB0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FDraw.pdb" /debug /machine:I386 /out:"Debug/FDraw.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\FDraw.obj"
+".\Debug\FDrawDoc.obj"
+".\Debug\FDrawView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FDraw.res"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPAAB0.tmp"
+<h3>Output Window</h3>
+Compiling...
+FDrawDoc.cpp
+Linking...
+FDrawDoc.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CStroke::Serialize(class CArchive &)" (?Serialize@CStroke@@UAEXAAVCArchive@@@Z)
+Debug/FDraw.exe : fatal error LNK1120: 1 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+FDraw.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

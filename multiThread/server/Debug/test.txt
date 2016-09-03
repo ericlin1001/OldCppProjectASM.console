@@ -1,0 +1,138 @@
+#include <iostream>
+using namespace std;
+#define MIN(a,b) ((a)<(b)?(a):(b))
+double inRange(int num,int min,int max){
+	if(num<min){
+		return 0;
+	}else if(num>max){
+	//	if(max==num+1) return num-min+1;
+	//	return max;
+	}
+	return MIN(max,num)-min+1;
+}
+#define TEST 1
+void deal(){
+	int status,money;
+	double rate;
+	cin>>status>>money;
+	switch(status){
+	/*	int as ,fasl, df;
+	double	asdfsadf;
+		int 	asdf;*/
+	case 0:
+		rate=0.1*inRange(money,TEST,6000)+
+			0.15*inRange(money,6001,27950)+
+			0.27*inRange(money,27951,67700)+
+			0.30*inRange(money,67701,141250)+
+			0.35*inRange(money,141251,307050)+
+			0.386*inRange(money,307051,money+1);
+		break;
+	case 1:
+		rate=0.1*inRange(money,TEST,12000)+
+			0.15*inRange(money,12001,46700)+
+			0.27*inRange(money,46701,112850)+
+			0.30*inRange(money,112851,171950)+
+			0.35*inRange(money,171951,307050)+
+			0.386*inRange(money,307051,money+1);
+		break;
+	case 2:
+		rate=0.1*inRange(money,TEST,6000)+
+			0.15*inRange(money,6001,23350)+
+			0.27*inRange(money,23351,56425)+
+			0.30*inRange(money,56426,85975)+
+			0.35*inRange(money,85976,153525)+
+			0.386*inRange(money,153526,money+1);
+		break;
+	case 3:
+		rate=0.1*inRange(money,TEST,10000)+
+			0.15*inRange(money,10001,37450)+
+			0.27*inRange(money,37451,96700)+
+			0.30*inRange(money,96701,156600)+
+			0.35*inRange(money,156601,307050)+
+			0.386*inRange(money,307051,money+1);
+		break;
+
+}
+	cout<<"Tax is "<<rate<<endl;
+}
+int main(){
+	for(int i=0;i<24;i++){
+		deal();
+	}
+	
+	return 0;
+}
+
+
+
+//
+Exercises 3.2
+#include<iostream>
+using namespace std;
+void check(){
+	int num;
+	cin>>num;
+	if(num%2==0 && num%3==0){
+		
+	cout<<num<<" is divisible by 2 and 3."<<endl;
+cout<<num<<" is divisible by 2 or 3."<<endl;
+	}else if(num%2==0 || num%3==0){
+		
+	cout<<num<<" is divisible by 2 or 3."<<endl;
+cout<<num<<" is divisible by 2 or 3, but not both."<<endl;
+	}
+}
+int main(){
+	for(int i=0;i<5;i++)check();
+	return 0;
+}
+
+
+ Exercises 2.15
+#include<iostream>
+using namespace std;
+int main(){
+	double n;
+	cin>>n;
+	cout<<n*0.454<<endl;
+	return 0;
+}
+
+Exercises 2.16
+#include<iostream>
+using namespace std;
+int main(){
+	double n,m;
+	cin>>n>>m;
+	m/=100;
+	cout<<"$"<<n*m<<endl;
+	cout<<"$"<<n*(1+m)<<endl;
+	return 0;
+}
+
+Exercises 2.17
+#include<iostream>
+using namespace std;
+int main(){
+	int n,m;
+	m=0;
+	cin>>n;
+	if(n==0) {cout<<m<<endl;return 0;}
+	while(n!=0){
+		m+=n%10;
+		n/=10;
+	}
+	cout<<m<<endl;return 0;
+	
+}
+2.18
+#include<iostream>
+using namespace std;
+int main(){
+	char ch;
+	cin>>ch;
+	ch+=0x20;
+	cout<<ch<<endl;
+	return 0;
+	
+}

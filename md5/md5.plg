@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: md5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP4C00.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/md5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\C ++\C++Projects\console\md5\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP4C00.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+e:\c ++\c++projects\console\md5\main.cpp(16) : error C2660: 'MD5Init' : function does not take 1 parameters
+e:\c ++\c++projects\console\md5\main.cpp(17) : error C2660: 'MD5Update' : function does not take 3 parameters
+e:\c ++\c++projects\console\md5\main.cpp(18) : error C2660: 'MD5Final' : function does not take 2 parameters
+e:\c ++\c++projects\console\md5\main.cpp(20) : error C2065: 'MD' : undeclared identifier
+e:\c ++\c++projects\console\md5\main.cpp(21) : error C2065: 'MDPrint' : undeclared identifier
+e:\c ++\c++projects\console\md5\main.cpp(32) : error C2660: 'MD5Init' : function does not take 1 parameters
+e:\c ++\c++projects\console\md5\main.cpp(33) : error C2660: 'MD5Update' : function does not take 3 parameters
+e:\c ++\c++projects\console\md5\main.cpp(34) : error C2660: 'MD5Final' : function does not take 2 parameters
+e:\c ++\c++projects\console\md5\main.cpp(50) : error C2660: 'MD5Init' : function does not take 1 parameters
+e:\c ++\c++projects\console\md5\main.cpp(51) : error C2660: 'MD5Update' : function does not take 3 parameters
+e:\c ++\c++projects\console\md5\main.cpp(52) : error C2660: 'MD5Final' : function does not take 2 parameters
+e:\c ++\c++projects\console\md5\main.cpp(63) : error C2065: 'digest' : undeclared identifier
+e:\c ++\c++projects\console\md5\main.cpp(64) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+e:\c ++\c++projects\console\md5\main.cpp(64) : fatal error C1004: unexpected end of file found
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

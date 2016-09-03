@@ -1,0 +1,40 @@
+infoSystem:
+***************************************************************************
+            menu : Return to menu.
+        resetAll : ResetAll.
+         showAll : Show all the infomation.
+ showGivenPerson : Given the person,and show the infomation about it.
+   showGivenType : Given the information's type and show just about this.
+          search : Search given person and given information's type.
+       addPerson : Add a person.
+         addType : Add an information type.
+       delPerson : Delete a person.
+         delType : Delete an information type.
+       setPerson : Set the information of a given person.
+       resetType : Reset the the name of type and the len of type.
+            save : Save.
+            quit : Save and quit.
+            help : Show the menu.
+           clear : Clear the screen.
+      printAfter : Set whether to printAll after every action.
+Order_$:
+
+
+
+1.	menu : 将返回<menu>界面
+2.	resetAll : 重设整个通讯录，即删除所有的数据
+3.	showAll : 显示所有的信息
+4.	showGivenPerson : 查找给定一个人的名字.
+5.	showGivenType : 查找给定信息类型名
+6.	search : 查找给定一个人的名字和信息类型名.
+7.	addPerson :增加一个人的通讯录信息.
+8.	addType : 增加一个信息类型
+9.	delPerson : 删除某个人的通讯录信息.
+10.	delType : 删除某个信息类型.
+11.	setPerson : 修改一个人的通讯录信息
+12.	resetType : 修改一个一个信息类型.
+13.	save : 保存.
+14.	quit : 保存后退出
+15.	help : 将显示<menu>界面
+16.	clear : 清除屏幕的所有内容
+17.	printAfter :设定是否在执行完每个命令后自动显示整个表格。（默认为：不显示）

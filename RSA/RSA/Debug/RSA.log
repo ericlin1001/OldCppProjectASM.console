@@ -1,0 +1,37 @@
+﻿Build started 2012/6/25 0:30:49.
+     1>Project "E:\C ++\C++Projects\console\RSA\RSA\RSA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RSA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RSA.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RSA.cpp
+         RSA.cpp
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(88): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(89): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(97): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(103): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(114): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\largeint.h(141): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\c ++\c++projects\console\rsa\rsa\rsa.cpp(52): warning C4244: '=' : conversion from 'LargeInt::Unit' to 'char', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C ++\C++Projects\console\RSA\Debug\RSA.exe" /INCREMENTAL /NOLOGO LargeInt.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RSA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C ++\C++Projects\console\RSA\Debug\RSA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C ++\C++Projects\console\RSA\Debug\RSA.lib" /MACHINE:X86 Debug\RSA.exe.embed.manifest.res
+         Debug\BasicRSA.obj
+         Debug\LargeInt.obj
+         Debug\RSA.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RSA.exe.embed.manifest" /manifest Debug\RSA.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         RSA.vcxproj -> E:\C ++\C++Projects\console\RSA\Debug\RSA.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\RSA.unsuccessfulbuild".
+         Touching "Debug\RSA.lastbuildstate".
+     1>Done Building Project "E:\C ++\C++Projects\console\RSA\RSA\RSA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.98

@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyFtp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyFtp.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtp.rc"" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPDF28.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyFtp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\ConnectDlg.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\FtpDlg.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MainFrm.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtp.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtpDoc.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtpView.cpp"
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\NewNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPDF28.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPDF39.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyFtp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPDF39.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPDF3A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyFtp.pdb" /debug /machine:I386 /out:"Debug/MyFtp.exe" /pdbtype:sept 
+".\Debug\ConnectDlg.obj"
+".\Debug\FtpDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyFtp.obj"
+".\Debug\MyFtpDoc.obj"
+".\Debug\MyFtpView.obj"
+".\Debug\NewNameDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyFtp.res"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPDF3A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+
+
+C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtp.rc (20): error RC2144 : PRIMARY LANGUAGE ID not a number
+
+
+C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtp.rc (70): error RC2135 : file not found: 128
+C:\Users\lenovo\Desktop\vcftp\codefans.net\VC_FTP客户端\程序代码\MyFtp.rc (90): error RC2104 : undefined keyword or key name: ID_APP_ABOUT
+
+
+
+
+
+
+执行 rc.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Debug/MyFtp.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ConnectDlg.sbr" ".\Debug\FtpDlg.sbr" ".\Debug\MainFrm.sbr" ".\Debug\MyFtp.sbr" ".\Debug\MyFtpDoc.sbr" ".\Debug\MyFtpView.sbr" ".\Debug\NewNameDlg.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\StdAfx.sbr': No such file or directory
+执行 bscmake.exe 时出错.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MyFtp.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

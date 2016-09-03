@@ -1,0 +1,1197 @@
+Microsoft (R) COFF Binary File Dumper Version 6.00.8168
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
+
+Dump of file Clientdll.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+     A98 size
+correct header end
+
+    71 public symbols
+
+     15BA __IMPORT_DESCRIPTOR_Clientdll
+     18CC __NULL_IMPORT_DESCRIPTOR
+     1A06 Clientdll_NULL_THUNK_DATA
+     22A4 ?isConn@CBasicClient@@QAE_NXZ
+     22A4 __imp_?isConn@CBasicClient@@QAE_NXZ
+     2320 ?isConnect@CBasicClient@@QAE_NXZ
+     2320 __imp_?isConnect@CBasicClient@@QAE_NXZ
+     1D36 ??4CBasicClient@@QAEAAV0@ABV0@@Z
+     1D36 __imp_??4CBasicClient@@QAEAAV0@ABV0@@Z
+     2A9C ?startRecv@CClientTest@@QAEXXZ
+     2A9C __imp_?startRecv@CClientTest@@QAEXXZ
+     1EB0 ?endRecv@CClientTest@@QAEXXZ
+     1EB0 __imp_?endRecv@CClientTest@@QAEXXZ
+     2020 ?getName@CClientTest@@QAEPADXZ
+     2020 __imp_?getName@CClientTest@@QAEPADXZ
+     1FA6 ?getID@CClientTest@@QAEIXZ
+     1FA6 __imp_?getID@CClientTest@@QAEIXZ
+     1F2C ?getAge@CClientTest@@QAEHXZ
+     1F2C __imp_?getAge@CClientTest@@QAEHXZ
+     1DB6 ??4CClientTest@@QAEAAV0@ABV0@@Z
+     1DB6 __imp_??4CClientTest@@QAEAAV0@ABV0@@Z
+     1B5E ??0CBasicClient@@QAE@XZ
+     1B5E __imp_??0CBasicClient@@QAE@XZ
+     1C4A ??1CBasicClient@@QAE@XZ
+     1C4A __imp_??1CBasicClient@@QAE@XZ
+     2226 ?init@CBasicClient@@QAEHPADG@Z
+     2226 __imp_?init@CBasicClient@@QAEHPADG@Z
+     1E34 ?disConn@CBasicClient@@QAEXXZ
+     1E34 __imp_?disConn@CBasicClient@@QAEXXZ
+     2898 ?sendMess@CBasicClient@@IAEHPAXH@Z
+     2898 __imp_?sendMess@CBasicClient@@IAEHPAXH@Z
+     268C ?recvMess@CBasicClient@@IAEHPAXH@Z
+     268C __imp_?recvMess@CBasicClient@@IAEHPAXH@Z
+     2612 ?print@CClientTest@@QAEXXZ
+     2612 __imp_?print@CClientTest@@QAEXXZ
+     270E ?recvMess@CClientTest@@QAEHAAUMessage@@@Z
+     270E __imp_?recvMess@CClientTest@@QAEHAAUMessage@@@Z
+     291A ?sendMess@CClientTest@@QAEHAAUMessage@@@Z
+     291A __imp_?sendMess@CClientTest@@QAEHAAUMessage@@@Z
+     1BD4 ??0CClientTest@@QAE@XZ
+     1BD4 __imp_??0CClientTest@@QAE@XZ
+     1CC0 ??1CClientTest@@QAE@XZ
+     1CC0 __imp_??1CClientTest@@QAE@XZ
+     2A22 ?start@CClientTest@@QAEHXZ
+     2A22 __imp_?start@CClientTest@@QAEHXZ
+     2B1A ?threadFun@CClientTest@@SGKPAX@Z
+     2B1A __imp_?threadFun@CClientTest@@SGKPAX@Z
+     23A0 ?isLogin@CClientTest@@QAE_NXZ
+     23A0 __imp_?isLogin@CClientTest@@QAE_NXZ
+     2592 ?pauseThread@CClientTest@@QAEXXZ
+     2592 __imp_?pauseThread@CClientTest@@QAEXXZ
+     2818 ?resumeThread@CClientTest@@QAEXXZ
+     2818 __imp_?resumeThread@CClientTest@@QAEXXZ
+     2514 ?lostServer@CClientTest@@QAEXXZ
+     2514 __imp_?lostServer@CClientTest@@QAEXXZ
+     249A ?logoff@CClientTest@@QAEXXZ
+     249A __imp_?logoff@CClientTest@@QAEXXZ
+     241C ?login@CClientTest@@QAEXPAD0@Z
+     241C __imp_?login@CClientTest@@QAEXPAD0@Z
+     209E ?getUserData@CClientTest@@QAEXXZ
+     209E __imp_?getUserData@CClientTest@@QAEXXZ
+     2796 ?recvWrongMess@CClientTest@@QAEXXZ
+     2796 __imp_?recvWrongMess@CClientTest@@QAEXXZ
+     2B9A ?updateUserData@CClientTest@@QAEXXZ
+     2B9A __imp_?updateUserData@CClientTest@@QAEXXZ
+     211E ?getUserDetail@CClientTest@@QAEXPADAAI@Z
+     211E __imp_?getUserDetail@CClientTest@@QAEXPADAAI@Z
+     21A6 ?getUserList@CClientTest@@QAEXXZ
+     21A6 __imp_?getUserList@CClientTest@@QAEXXZ
+     29A2 ?sendStr@CClientTest@@QAEXPADI@Z
+     29A2 __imp_?sendStr@CClientTest@@QAEXPADI@Z
+
+Archive member name at ADC: /               
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+     AA2 size
+correct header end
+
+    37 offsets
+
+        1     15BA
+        2     18CC
+        3     1A06
+        4     22A4
+        5     2320
+        6     1D36
+        7     2A9C
+        8     1EB0
+        9     2020
+        A     1FA6
+        B     1F2C
+        C     1DB6
+        D     1B5E
+        E     1C4A
+        F     2226
+       10     1E34
+       11     2898
+       12     268C
+       13     2612
+       14     270E
+       15     291A
+       16     1BD4
+       17     1CC0
+       18     2A22
+       19     2B1A
+       1A     23A0
+       1B     2592
+       1C     2818
+       1D     2514
+       1E     249A
+       1F     241C
+       20     209E
+       21     2796
+       22     2B9A
+       23     211E
+       24     21A6
+       25     29A2
+
+    71 public symbols
+
+        D ??0CBasicClient@@QAE@XZ
+       16 ??0CClientTest@@QAE@XZ
+        E ??1CBasicClient@@QAE@XZ
+       17 ??1CClientTest@@QAE@XZ
+        6 ??4CBasicClient@@QAEAAV0@ABV0@@Z
+        C ??4CClientTest@@QAEAAV0@ABV0@@Z
+       10 ?disConn@CBasicClient@@QAEXXZ
+        8 ?endRecv@CClientTest@@QAEXXZ
+        B ?getAge@CClientTest@@QAEHXZ
+        A ?getID@CClientTest@@QAEIXZ
+        9 ?getName@CClientTest@@QAEPADXZ
+       20 ?getUserData@CClientTest@@QAEXXZ
+       23 ?getUserDetail@CClientTest@@QAEXPADAAI@Z
+       24 ?getUserList@CClientTest@@QAEXXZ
+        F ?init@CBasicClient@@QAEHPADG@Z
+        4 ?isConn@CBasicClient@@QAE_NXZ
+        5 ?isConnect@CBasicClient@@QAE_NXZ
+       1A ?isLogin@CClientTest@@QAE_NXZ
+       1F ?login@CClientTest@@QAEXPAD0@Z
+       1E ?logoff@CClientTest@@QAEXXZ
+       1D ?lostServer@CClientTest@@QAEXXZ
+       1B ?pauseThread@CClientTest@@QAEXXZ
+       13 ?print@CClientTest@@QAEXXZ
+       12 ?recvMess@CBasicClient@@IAEHPAXH@Z
+       14 ?recvMess@CClientTest@@QAEHAAUMessage@@@Z
+       21 ?recvWrongMess@CClientTest@@QAEXXZ
+       1C ?resumeThread@CClientTest@@QAEXXZ
+       11 ?sendMess@CBasicClient@@IAEHPAXH@Z
+       15 ?sendMess@CClientTest@@QAEHAAUMessage@@@Z
+       25 ?sendStr@CClientTest@@QAEXPADI@Z
+       18 ?start@CClientTest@@QAEHXZ
+        7 ?startRecv@CClientTest@@QAEXXZ
+       19 ?threadFun@CClientTest@@SGKPAX@Z
+       22 ?updateUserData@CClientTest@@QAEXXZ
+        1 __IMPORT_DESCRIPTOR_Clientdll
+        2 __NULL_IMPORT_DESCRIPTOR
+        D __imp_??0CBasicClient@@QAE@XZ
+       16 __imp_??0CClientTest@@QAE@XZ
+        E __imp_??1CBasicClient@@QAE@XZ
+       17 __imp_??1CClientTest@@QAE@XZ
+        6 __imp_??4CBasicClient@@QAEAAV0@ABV0@@Z
+        C __imp_??4CClientTest@@QAEAAV0@ABV0@@Z
+       10 __imp_?disConn@CBasicClient@@QAEXXZ
+        8 __imp_?endRecv@CClientTest@@QAEXXZ
+        B __imp_?getAge@CClientTest@@QAEHXZ
+        A __imp_?getID@CClientTest@@QAEIXZ
+        9 __imp_?getName@CClientTest@@QAEPADXZ
+       20 __imp_?getUserData@CClientTest@@QAEXXZ
+       23 __imp_?getUserDetail@CClientTest@@QAEXPADAAI@Z
+       24 __imp_?getUserList@CClientTest@@QAEXXZ
+        F __imp_?init@CBasicClient@@QAEHPADG@Z
+        4 __imp_?isConn@CBasicClient@@QAE_NXZ
+        5 __imp_?isConnect@CBasicClient@@QAE_NXZ
+       1A __imp_?isLogin@CClientTest@@QAE_NXZ
+       1F __imp_?login@CClientTest@@QAEXPAD0@Z
+       1E __imp_?logoff@CClientTest@@QAEXXZ
+       1D __imp_?lostServer@CClientTest@@QAEXXZ
+       1B __imp_?pauseThread@CClientTest@@QAEXXZ
+       13 __imp_?print@CClientTest@@QAEXXZ
+       12 __imp_?recvMess@CBasicClient@@IAEHPAXH@Z
+       14 __imp_?recvMess@CClientTest@@QAEHAAUMessage@@@Z
+       21 __imp_?recvWrongMess@CClientTest@@QAEXXZ
+       1C __imp_?resumeThread@CClientTest@@QAEXXZ
+       11 __imp_?sendMess@CBasicClient@@IAEHPAXH@Z
+       15 __imp_?sendMess@CClientTest@@QAEHAAUMessage@@@Z
+       25 __imp_?sendStr@CClientTest@@QAEXPADI@Z
+       18 __imp_?start@CClientTest@@QAEHXZ
+        7 __imp_?startRecv@CClientTest@@QAEXXZ
+       19 __imp_?threadFun@CClientTest@@SGKPAX@Z
+       22 __imp_?updateUserData@CClientTest@@QAEXXZ
+        3 Clientdll_NULL_THUNK_DATA
+
+Archive member name at 15BA: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+     2D6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (i386)
+               3 number of sections
+        5139F7F3 time date stamp Fri Mar 08 22:38:43 2013
+             1F0 file pointer to symbol table
+               8 number of symbols
+              E0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic #
+            6.00 linker version
+               0 size of code
+               0 size of initialized data
+               0 size of uninitialized data
+               0 RVA of entry point
+               0 base of code
+               0 base of data
+               0 image base
+            1000 section alignment
+             200 file alignment
+            4.00 operating system version
+            0.00 image version
+            0.00 subsystem version
+               0 Win32 version
+               0 size of image
+               0 size of headers
+               0 checksum
+               3 subsystem (Windows CUI)
+               0 DLL characteristics
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+               0 [       0] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+               0 [       0] RVA [size] of Base Relocation Directory
+               0 [       0] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Special Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+               0 [       0] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of Reserved Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      44 size of raw data
+     16C file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 43 6C 69  .............Cli
+  00000010: 65 6E 74 64 6C 6C 2E 64 6C 6C 28 00 13 10 07 00  entdll.dll(.....
+  00000020: 00 00 03 00 00 00 00 00 00 00 06 00 00 00 E8 1F  ................
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B 00                                      INK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+     1B0 file pointer to raw data
+     1C4 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     1E2 file pointer to raw data
+     1C4 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 43 6C 69 65 6E 74 64 6C 6C 2E 64 6C 6C 00        Clientdll.dll.
+
+COFF SYMBOL TABLE
+000 00041FE8 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_Clientdll
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | Clientdll_NULL_THUNK_DATA
+
+String Table Size = 0x56 bytes
+
+Archive member name at 18CC: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      FD size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (i386)
+               2 number of sections
+        5139F7F3 time date stamp Fri Mar 08 22:38:43 2013
+              BC file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      44 size of raw data
+      64 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 43 6C 69  .............Cli
+  00000010: 65 6E 74 64 6C 6C 2E 64 6C 6C 28 00 13 10 07 00  entdll.dll(.....
+  00000020: 00 00 03 00 00 00 00 00 00 00 06 00 00 00 E8 1F  ................
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B 00                                      INK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A8 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 00041FE8 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1A06: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+     11B size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (i386)
+               3 number of sections
+        5139F7F3 time date stamp Fri Mar 08 22:38:43 2013
+              D8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      44 size of raw data
+      8C file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 14 00 09 00 00 00 00 00 0D 43 6C 69  .............Cli
+  00000010: 65 6E 74 64 6C 6C 2E 64 6C 6C 28 00 13 10 07 00  entdll.dll(.....
+  00000020: 00 00 03 00 00 00 00 00 00 00 06 00 00 00 E8 1F  ................
+  00000030: 12 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C  .Microsoft (R) L
+  00000040: 49 4E 4B 00                                      INK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D4 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 00041FE8 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | Clientdll_NULL_THUNK_DATA
+
+String Table Size = 0x1F bytes
+
+Archive member name at 1B5E: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000026
+  DLL name     : Clientdll.dll
+  Symbol name  : ??0CBasicClient@@QAE@XZ (public: __thiscall CBasicClient::CBasicClient(void))
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : ??0CBasicClient@@QAE@XZ
+
+Archive member name at 1BD4: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000025
+  DLL name     : Clientdll.dll
+  Symbol name  : ??0CClientTest@@QAE@XZ (public: __thiscall CClientTest::CClientTest(void))
+  Type         : code
+  Name type    : name
+  Hint         : 1
+  Name         : ??0CClientTest@@QAE@XZ
+
+Archive member name at 1C4A: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000026
+  DLL name     : Clientdll.dll
+  Symbol name  : ??1CBasicClient@@QAE@XZ (public: __thiscall CBasicClient::~CBasicClient(void))
+  Type         : code
+  Name type    : name
+  Hint         : 2
+  Name         : ??1CBasicClient@@QAE@XZ
+
+Archive member name at 1CC0: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000025
+  DLL name     : Clientdll.dll
+  Symbol name  : ??1CClientTest@@QAE@XZ (public: __thiscall CClientTest::~CClientTest(void))
+  Type         : code
+  Name type    : name
+  Hint         : 3
+  Name         : ??1CClientTest@@QAE@XZ
+
+Archive member name at 1D36: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ??4CBasicClient@@QAEAAV0@ABV0@@Z (public: class CBasicClient & __thiscall CBasicClient::operator=(class CBasicClient const &))
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : ??4CBasicClient@@QAEAAV0@ABV0@@Z
+
+Archive member name at 1DB6: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002E
+  DLL name     : Clientdll.dll
+  Symbol name  : ??4CClientTest@@QAEAAV0@ABV0@@Z (public: class CClientTest & __thiscall CClientTest::operator=(class CClientTest const &))
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : ??4CClientTest@@QAEAAV0@ABV0@@Z
+
+Archive member name at 1E34: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002C
+  DLL name     : Clientdll.dll
+  Symbol name  : ?disConn@CBasicClient@@QAEXXZ (public: void __thiscall CBasicClient::disConn(void))
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : ?disConn@CBasicClient@@QAEXXZ
+
+Archive member name at 1EB0: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002B
+  DLL name     : Clientdll.dll
+  Symbol name  : ?endRecv@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::endRecv(void))
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : ?endRecv@CClientTest@@QAEXXZ
+
+Archive member name at 1F2C: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002A
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getAge@CClientTest@@QAEHXZ (public: int __thiscall CClientTest::getAge(void))
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : ?getAge@CClientTest@@QAEHXZ
+
+Archive member name at 1FA6: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000029
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getID@CClientTest@@QAEIXZ (public: unsigned int __thiscall CClientTest::getID(void))
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : ?getID@CClientTest@@QAEIXZ
+
+Archive member name at 2020: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002D
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getName@CClientTest@@QAEPADXZ (public: char * __thiscall CClientTest::getName(void))
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : ?getName@CClientTest@@QAEPADXZ
+
+Archive member name at 209E: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getUserData@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::getUserData(void))
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : ?getUserData@CClientTest@@QAEXXZ
+
+Archive member name at 211E: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000037
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getUserDetail@CClientTest@@QAEXPADAAI@Z (public: void __thiscall CClientTest::getUserDetail(char *,unsigned int &))
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : ?getUserDetail@CClientTest@@QAEXPADAAI@Z
+
+Archive member name at 21A6: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?getUserList@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::getUserList(void))
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : ?getUserList@CClientTest@@QAEXXZ
+
+Archive member name at 2226: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002D
+  DLL name     : Clientdll.dll
+  Symbol name  : ?init@CBasicClient@@QAEHPADG@Z (public: int __thiscall CBasicClient::init(char *,unsigned short))
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : ?init@CBasicClient@@QAEHPADG@Z
+
+Archive member name at 22A4: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002C
+  DLL name     : Clientdll.dll
+  Symbol name  : ?isConn@CBasicClient@@QAE_NXZ (public: bool __thiscall CBasicClient::isConn(void))
+  Type         : code
+  Name type    : name
+  Hint         : 15
+  Name         : ?isConn@CBasicClient@@QAE_NXZ
+
+Archive member name at 2320: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?isConnect@CBasicClient@@QAE_NXZ (public: bool __thiscall CBasicClient::isConnect(void))
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : ?isConnect@CBasicClient@@QAE_NXZ
+
+Archive member name at 23A0: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002C
+  DLL name     : Clientdll.dll
+  Symbol name  : ?isLogin@CClientTest@@QAE_NXZ (public: bool __thiscall CClientTest::isLogin(void))
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : ?isLogin@CClientTest@@QAE_NXZ
+
+Archive member name at 241C: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002D
+  DLL name     : Clientdll.dll
+  Symbol name  : ?login@CClientTest@@QAEXPAD0@Z (public: void __thiscall CClientTest::login(char *,char *))
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : ?login@CClientTest@@QAEXPAD0@Z
+
+Archive member name at 249A: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002A
+  DLL name     : Clientdll.dll
+  Symbol name  : ?logoff@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::logoff(void))
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : ?logoff@CClientTest@@QAEXXZ
+
+Archive member name at 2514: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002E
+  DLL name     : Clientdll.dll
+  Symbol name  : ?lostServer@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::lostServer(void))
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : ?lostServer@CClientTest@@QAEXXZ
+
+Archive member name at 2592: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?pauseThread@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::pauseThread(void))
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : ?pauseThread@CClientTest@@QAEXXZ
+
+Archive member name at 2612: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000029
+  DLL name     : Clientdll.dll
+  Symbol name  : ?print@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::print(void))
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : ?print@CClientTest@@QAEXXZ
+
+Archive member name at 268C: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000031
+  DLL name     : Clientdll.dll
+  Symbol name  : ?recvMess@CBasicClient@@IAEHPAXH@Z (protected: int __thiscall CBasicClient::recvMess(void *,int))
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : ?recvMess@CBasicClient@@IAEHPAXH@Z
+
+Archive member name at 270E: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000038
+  DLL name     : Clientdll.dll
+  Symbol name  : ?recvMess@CClientTest@@QAEHAAUMessage@@@Z (public: int __thiscall CClientTest::recvMess(struct Message &))
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : ?recvMess@CClientTest@@QAEHAAUMessage@@@Z
+
+Archive member name at 2796: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000031
+  DLL name     : Clientdll.dll
+  Symbol name  : ?recvWrongMess@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::recvWrongMess(void))
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : ?recvWrongMess@CClientTest@@QAEXXZ
+
+Archive member name at 2818: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000030
+  DLL name     : Clientdll.dll
+  Symbol name  : ?resumeThread@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::resumeThread(void))
+  Type         : code
+  Name type    : name
+  Hint         : 26
+  Name         : ?resumeThread@CClientTest@@QAEXXZ
+
+Archive member name at 2898: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000031
+  DLL name     : Clientdll.dll
+  Symbol name  : ?sendMess@CBasicClient@@IAEHPAXH@Z (protected: int __thiscall CBasicClient::sendMess(void *,int))
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : ?sendMess@CBasicClient@@IAEHPAXH@Z
+
+Archive member name at 291A: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000038
+  DLL name     : Clientdll.dll
+  Symbol name  : ?sendMess@CClientTest@@QAEHAAUMessage@@@Z (public: int __thiscall CClientTest::sendMess(struct Message &))
+  Type         : code
+  Name type    : name
+  Hint         : 28
+  Name         : ?sendMess@CClientTest@@QAEHAAUMessage@@@Z
+
+Archive member name at 29A2: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?sendStr@CClientTest@@QAEXPADI@Z (public: void __thiscall CClientTest::sendStr(char *,unsigned int))
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : ?sendStr@CClientTest@@QAEXPADI@Z
+
+Archive member name at 2A22: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000029
+  DLL name     : Clientdll.dll
+  Symbol name  : ?start@CClientTest@@QAEHXZ (public: int __thiscall CClientTest::start(void))
+  Type         : code
+  Name type    : name
+  Hint         : 30
+  Name         : ?start@CClientTest@@QAEHXZ
+
+Archive member name at 2A9C: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002D
+  DLL name     : Clientdll.dll
+  Symbol name  : ?startRecv@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::startRecv(void))
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : ?startRecv@CClientTest@@QAEXXZ
+
+Archive member name at 2B1A: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 0000002F
+  DLL name     : Clientdll.dll
+  Symbol name  : ?threadFun@CClientTest@@SGKPAX@Z (public: static unsigned long __stdcall CClientTest::threadFun(void *))
+  Type         : code
+  Name type    : name
+  Hint         : 32
+  Name         : ?threadFun@CClientTest@@SGKPAX@Z
+
+Archive member name at 2B9A: Clientdll.dll/  
+5139F7F3 time/date Fri Mar 08 22:38:43 2013
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (i386)
+  TimeDateStamp: 5139F7F3 Fri Mar 08 22:38:43 2013
+  SizeOfData   : 00000032
+  DLL name     : Clientdll.dll
+  Symbol name  : ?updateUserData@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::updateUserData(void))
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : ?updateUserData@CClientTest@@QAEXXZ
+
+     Exports
+
+       ordinal    name
+
+                  ??0CBasicClient@@QAE@XZ (public: __thiscall CBasicClient::CBasicClient(void))
+                  ??0CClientTest@@QAE@XZ (public: __thiscall CClientTest::CClientTest(void))
+                  ??1CBasicClient@@QAE@XZ (public: __thiscall CBasicClient::~CBasicClient(void))
+                  ??1CClientTest@@QAE@XZ (public: __thiscall CClientTest::~CClientTest(void))
+                  ??4CBasicClient@@QAEAAV0@ABV0@@Z (public: class CBasicClient & __thiscall CBasicClient::operator=(class CBasicClient const &))
+                  ??4CClientTest@@QAEAAV0@ABV0@@Z (public: class CClientTest & __thiscall CClientTest::operator=(class CClientTest const &))
+                  ?disConn@CBasicClient@@QAEXXZ (public: void __thiscall CBasicClient::disConn(void))
+                  ?endRecv@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::endRecv(void))
+                  ?getAge@CClientTest@@QAEHXZ (public: int __thiscall CClientTest::getAge(void))
+                  ?getID@CClientTest@@QAEIXZ (public: unsigned int __thiscall CClientTest::getID(void))
+                  ?getName@CClientTest@@QAEPADXZ (public: char * __thiscall CClientTest::getName(void))
+                  ?getUserData@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::getUserData(void))
+                  ?getUserDetail@CClientTest@@QAEXPADAAI@Z (public: void __thiscall CClientTest::getUserDetail(char *,unsigned int &))
+                  ?getUserList@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::getUserList(void))
+                  ?init@CBasicClient@@QAEHPADG@Z (public: int __thiscall CBasicClient::init(char *,unsigned short))
+                  ?isConn@CBasicClient@@QAE_NXZ (public: bool __thiscall CBasicClient::isConn(void))
+                  ?isConnect@CBasicClient@@QAE_NXZ (public: bool __thiscall CBasicClient::isConnect(void))
+                  ?isLogin@CClientTest@@QAE_NXZ (public: bool __thiscall CClientTest::isLogin(void))
+                  ?login@CClientTest@@QAEXPAD0@Z (public: void __thiscall CClientTest::login(char *,char *))
+                  ?logoff@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::logoff(void))
+                  ?lostServer@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::lostServer(void))
+                  ?pauseThread@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::pauseThread(void))
+                  ?print@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::print(void))
+                  ?recvMess@CBasicClient@@IAEHPAXH@Z (protected: int __thiscall CBasicClient::recvMess(void *,int))
+                  ?recvMess@CClientTest@@QAEHAAUMessage@@@Z (public: int __thiscall CClientTest::recvMess(struct Message &))
+                  ?recvWrongMess@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::recvWrongMess(void))
+                  ?resumeThread@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::resumeThread(void))
+                  ?sendMess@CBasicClient@@IAEHPAXH@Z (protected: int __thiscall CBasicClient::sendMess(void *,int))
+                  ?sendMess@CClientTest@@QAEHAAUMessage@@@Z (public: int __thiscall CClientTest::sendMess(struct Message &))
+                  ?sendStr@CClientTest@@QAEXPADI@Z (public: void __thiscall CClientTest::sendStr(char *,unsigned int))
+                  ?start@CClientTest@@QAEHXZ (public: int __thiscall CClientTest::start(void))
+                  ?startRecv@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::startRecv(void))
+                  ?threadFun@CClientTest@@SGKPAX@Z (public: static unsigned long __stdcall CClientTest::threadFun(void *))
+                  ?updateUserData@CClientTest@@QAEXXZ (public: void __thiscall CClientTest::updateUserData(void))
+
+  Summary
+
+          CC .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

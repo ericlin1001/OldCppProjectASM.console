@@ -1,0 +1,35 @@
+#include <cstdlib>
+#include <iostream>
+#include "LargeInt.h"
+using namespace std;
+
+#define Trace(m) cout<<#m"="<<(m)<<endl;
+int main(int argc, char *argv[])
+{
+    LargeInt a,b=2,c(b),d(3),f="123123";
+    a=b;
+    a+=b;
+    a=a+b;
+    a++;
+    Trace((--a)++);
+    ++a;
+    a--;
+    a=2+b;
+    a*=2;
+    a=4*5;
+    a=(int)54.0*d;
+    //
+    Trace(a);
+    Trace(b);
+    b="123132";
+    a=c+"0123";
+    a="123"+b;
+    a+="123132";
+    //
+    a+="-123123";
+    cout<<"input a:";cin>>a;
+    Trace(a);
+    //
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}

@@ -1,0 +1,2 @@
+/*ShowBin(a);
+	Trace(getBin((Pointer)&a,sizeof(a)*8,buffer));*/

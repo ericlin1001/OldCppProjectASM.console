@@ -1,0 +1,174 @@
+Please input the path of a data file:(infoSystem.dat)
+File doesn't exsit!
+Do you want to create the file:infoSystem.dat?(Y/N):y
+Creating the file:infoSystem.dat ...
+Opening infoSystem.dat ...
+Open the file:infoSystem.dat successfully!
+infoSystem:
+***************************************************************************
+            menu : Return to menu.
+        resetAll : ResetAll.
+         showAll : Show all the infomation.
+ showGivenPerson : Given the person,and show the infomation about it.
+   showGivenType : Given the information's type and show just about this.
+          search : Search given person and given information's type.
+       addPerson : Add a person.
+         addType : Add an information type.
+       delPerson : Delete a person.
+         delType : Delete an information type.
+       setPerson : Set the information of a given person.
+       resetType : Reset the the name of type and the len of type.
+            save : Save.
+            quit : Save and quit.
+            help : Show the menu.
+           clear : Clear the screen.
+      printAfter : Set whether to printAll after every action.
+***************************************************************************
+Order_$:showall
+---------------------
+|Name|QQ|Phone|Email|
+---------------------
+Order_$:addPerson
+Input the data:
+Name(10):Eric
+QQ(10):463222898
+Phone(18):612764
+Email(30):nameljh@sina.com
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:showall
+----------------------------------------
+|Name|       QQ| Phone|           Email|
+----------------------------------------
+|Eric|463222898|612764|nameljh@sina.com|
+----------------------------------------
+Order_$:addperson
+Input the data:
+Name(10):anny
+QQ(10):523666251
+Phone(18):612766
+Email(30):anny19930305@sina.com
+Do you want to save now?(Y/N)n
+The data have not been saved.
+Order_$:showall
+---------------------------------------------
+|Name|       QQ| Phone|                Email|
+---------------------------------------------
+|Eric|463222898|612764|     nameljh@sina.com|
+---------------------------------------------
+|anny|523666251|612766|anny19930305@sina.com|
+---------------------------------------------
+Order_$:showGivenPerson
+Name:anny
+---------------------------------------------
+|Name|       QQ| Phone|                Email|
+---------------------------------------------
+|anny|523666251|612766|anny19930305@sina.com|
+---------------------------------------------
+Order_$:showGivenType
+Name of type:Phone
+-------------
+|Name| Phone|
+-------------
+|Eric|612764|
+-------------
+|anny|612766|
+-------------
+Order_$:addType
+The max size of type:25
+The name of type(25):age
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:addperson
+Input the data:
+Name(10):bob
+QQ(10):563222145
+Phone(18):13524569872
+Email(30):Bob19931103@sina.com
+age(25):18
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:showall
+------------------------------------------------------
+|Name|       QQ|      Phone|                Email|age|
+------------------------------------------------------
+|Eric|463222898|     612764|     nameljh@sina.com|   |
+------------------------------------------------------
+|anny|523666251|     612766|anny19930305@sina.com|   |
+------------------------------------------------------
+| bob|563222145|13524569872| Bob19931103@sina.com| 18|
+------------------------------------------------------
+Order_$:setPerson
+Name:anny
+(Note:No input means no change.)
+Name(10):(anny)
+Change to:anny
+QQ(10):(523666251)
+Change to:
+Phone(18):(612766)
+Change to:
+Email(30):(anny19930305@sina.com)
+Change to:
+age(25):()
+Change to:19
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:resetType
+Name of type:Email
+(Note:No input means no change.)
+The max size of type:(30)
+Change to:
+Name of type(30):(Email)
+Change to:e-mail
+Rename type successfully!
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:showall
+------------------------------------------------------
+|Name|       QQ|      Phone|               e-mail|age|
+------------------------------------------------------
+|Eric|463222898|     612764|     nameljh@sina.com|   |
+------------------------------------------------------
+|anny|523666251|     612766|anny19930305@sina.com| 19|
+------------------------------------------------------
+| bob|563222145|13524569872| Bob19931103@sina.com| 18|
+------------------------------------------------------
+Order_$:delPerson
+Name:anny
+Delete person:anny success!
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:deltype
+Name of type:age
+Delete type:age successfully!
+Do you want to save now?(Y/N)y
+Save successfully!
+Order_$:save
+Save successfully!
+Order_$:printAfter
+printAfter=true
+--------------------------------------------------
+|Name|       QQ|      Phone|               e-mail|
+--------------------------------------------------
+|Eric|463222898|     612764|     nameljh@sina.com|
+--------------------------------------------------
+| bob|563222145|13524569872| Bob19931103@sina.com|
+--------------------------------------------------
+Order_$:addperson
+Input the data:
+Name(10):chilly
+QQ(10):532171456
+Phone(18):13562598452/618452
+e-mail(30):no mail
+Do you want to save now?(Y/N)y
+Save successfully!
+-----------------------------------------------------------
+|  Name|       QQ|             Phone|               e-mail|
+-----------------------------------------------------------
+|  Eric|463222898|            612764|     nameljh@sina.com|
+-----------------------------------------------------------
+|   bob|563222145|       13524569872| Bob19931103@sina.com|
+-----------------------------------------------------------
+|chilly|532171456|13562598452/618452|              no mail|
+-----------------------------------------------------------
+Order_$:quit
